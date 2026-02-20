@@ -26,6 +26,7 @@ Vanilla JavaScript – Functionality & DOM Manipulation
 Local Storage API – Data persistence
 
 ⚙️ How It Works
+
 1️⃣ Adding a Task
 
 User enters text in the input box.
@@ -57,10 +58,4 @@ Updates Local Storage.
 4️⃣ Data Persistence
 
 Tasks are saved using:
-
-localStorage.setItem("data", listContainer.innerHTML);
-
-
-On page reload:
-
-listContainer.innerHTML = localStorage.getItem("data");
+localStorage
